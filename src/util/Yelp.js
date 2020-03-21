@@ -1,4 +1,4 @@
-const apikey='';
+const apiKey='';
 
 const Yelp={
     searchYelp(term, location, sortBy){
@@ -10,7 +10,7 @@ const Yelp={
             return response.json();
         }).then((jsonResponse) => {
             if(jsonResponse.businesses){
-                return jsonResponse.businesses.map((business) => {
+                return jsonResponse.businesses.map(((business) => {
                     console.log(business)
                     return {
                         id: business.id,
@@ -19,12 +19,12 @@ const Yelp={
                         address:business.location.address1,
                         city: business.location.city,
                         state: business.location.state,
-                        zipCode: business.location.zip_code,
-                        category: business.categoties[0].title,
+                        zipCode: business.location.zipCode,
+                        category: business.categories[0].title,
                         rating: business.rating,
                         reviewCount: business.review_count,
                     };
-                });
+                }));
             }
         })
     }
