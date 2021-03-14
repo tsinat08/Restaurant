@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d319dbb5-9997-4f7a-acbf-4b7949f972d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Restaurant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Restaurant.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Business/Business.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Business/Business.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Business/Business.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Business/Business.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BusinessList/BusinessList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BusinessList/BusinessList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BusinessList/BusinessList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BusinessList/BusinessList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" afterDir="false" />
+    <list default="true" id="d319dbb5-9997-4f7a-acbf-4b7949f972d8" name="Default Changelist" comment="Interacting with the Yelp API&#10;Adding server.js">
       <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/Yelp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Yelp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +75,7 @@
       <workItem from="1615668059049" duration="34000" />
       <workItem from="1615668098951" duration="829000" />
       <workItem from="1615690561118" duration="16000" />
-      <workItem from="1615726133309" duration="7646000" />
+      <workItem from="1615726133309" duration="7991000" />
     </task>
     <task id="LOCAL-00001" summary="first comment">
       <created>1584233341389</created>
@@ -204,11 +189,29 @@
       <option name="project" value="LOCAL" />
       <updated>1592613454845</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Interacting with the Yelp API&#10;Adding server.js">
+      <created>1615755727108</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615755727108</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first comment" />
@@ -219,51 +222,5 @@
     <MESSAGE value="Interacting with the Yelp API" />
     <MESSAGE value="Interacting with the Yelp API&#10;Adding server.js" />
     <option name="LAST_COMMIT_MESSAGE" value="Interacting with the Yelp API&#10;Adding server.js" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="362" y="72" key="#Notifications" timestamp="1592611877247">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="362" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1592611877247" />
-    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592612481707">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1592612481707" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1592613454101">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592613454101" />
-    <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1592612225970">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592612225970" />
-    <state width="757" height="211" key="GridCell.Tab.0.bottom" timestamp="1592615534459">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="757" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592615534459" />
-    <state width="757" height="211" key="GridCell.Tab.0.center" timestamp="1592615534459">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="757" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592615534459" />
-    <state width="757" height="211" key="GridCell.Tab.0.left" timestamp="1592615534459">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="757" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592615534459" />
-    <state width="757" height="211" key="GridCell.Tab.0.right" timestamp="1592615534459">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="757" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592615534459" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1592613457165">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592613457165" />
-    <state x="579" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591674249354">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="579" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591674249354" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592612898467">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592612898467" />
   </component>
 </project>
