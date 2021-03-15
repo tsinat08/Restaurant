@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d319dbb5-9997-4f7a-acbf-4b7949f972d8" name="Default Changelist" comment="Interacting with the Yelp API&#10;Adding server.js">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" afterDir="false" />
-    </list>
+    <list default="true" id="d319dbb5-9997-4f7a-acbf-4b7949f972d8" name="Default Changelist" comment="fix bug with sort by option" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="sortByOptoins" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,7 +85,7 @@
       <workItem from="1615668059049" duration="34000" />
       <workItem from="1615668098951" duration="829000" />
       <workItem from="1615690561118" duration="16000" />
-      <workItem from="1615726133309" duration="15250000" />
+      <workItem from="1615726133309" duration="15541000" />
     </task>
     <task id="LOCAL-00001" summary="first comment">
       <created>1584233341389</created>
@@ -245,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615759027079</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fix bug with sort by option">
+      <created>1615803661416</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1615803661416</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +273,7 @@
     <MESSAGE value="add Yelp.js" />
     <MESSAGE value="Interacting with the Yelp API" />
     <MESSAGE value="Interacting with the Yelp API&#10;Adding server.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interacting with the Yelp API&#10;Adding server.js" />
+    <MESSAGE value="fix bug with sort by option" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug with sort by option" />
   </component>
 </project>
