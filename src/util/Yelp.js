@@ -1,6 +1,6 @@
 const Yelp={
     searchYelp(term, location, sort_by){
-        return fetch(`/api?term=${term}&location=${location}&sort_by=${sort_by}`).then((response) =>{
+        return fetch(`/api/search?term=${term}&location=${location}&sort_by=${sort_by}`).then((response) =>{
             return response.json();
         }).then((jsonResponse) => {
             if(jsonResponse.businesses){

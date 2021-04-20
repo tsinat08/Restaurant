@@ -1,0 +1,8 @@
+jamming:
+  component: "@sls-next/serverless-component@1.18.0"
+  inputs:
+    name: restaurant
+    bucketRegion: "us-west-1"
+    bucketName: restaurant-tsinat
+    cloudfront:
+      distributionId: E2PREI66FTQKNY
